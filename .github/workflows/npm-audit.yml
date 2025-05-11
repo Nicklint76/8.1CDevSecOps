@@ -23,3 +23,6 @@ jobs:
 
       - name: Run audit scan
         run: npm audit --audit-level=high || true
+
+      - name: Finished message
+        run: echo "GitHub Actions workflow for npm audit completed successfully!"
